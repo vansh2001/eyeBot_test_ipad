@@ -1,4 +1,4 @@
-<app-instructions></app-instructions>
-<app-usertest></app-usertest>
-<app-warning></app-warning>
-<router-outlet></router-outlet>
+<app-warning *ngIf=showWarning></app-warning>
+<app-instructions *ngIf=showInstructions></app-instructions>
+<app-usertest *ngIf=showUsertest></app-usertest>
+<!-- <router-outlet></router-outlet> -->

@@ -1,0 +1,13 @@
+header {
+  font-size: 32px;
+  font-style: normal;
+  text-align: center;
+  color: black;
+  font-family: 'Fredoka One', cursive;
+  margin-top: 100px;
+  margin: auto;
+}
+
+.background {
+  padding: 5px;
+}

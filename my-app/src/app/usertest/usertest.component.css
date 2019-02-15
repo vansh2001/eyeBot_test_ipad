@@ -1,0 +1,73 @@
+.minus {
+  text-align: left;
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  bottom: 0px;
+  left: 10px;
+}
+
+.plus {
+  text-align: right;
+  display: inline-block;
+  position: fixed;
+  top: 60px;
+  bottom: 0px;
+  right: 10px;
+}
+
+.results {
+  font-size: 30px;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+
+p{
+  display: inline-block;
+}
+
+div {
+  text-align: center;
+  padding-top: 300px;
+}
+
+h2 {
+  font-family: sans-serif;
+  margin: auto;
+  text-align: center;
+  color: black;
+}
+
+/*text size for eye test*/
+.one{
+  font-size: 8px;
+}
+
+.one-25{
+  font-size: 10px;
+}
+
+.one-50{
+  font-size: 12px;
+}
+
+.one-75{
+  font-size: 13px;
+}
+.two-00{
+  font-size: 14px;
+}
+.two-25{
+  font-size: 16px;
+}
+.two-50{
+  font-size: 18px;
+}
+.two-75{
+  font-size: 19px;
+}
+
+.three-25{
+  font-size: 37px;
+}
