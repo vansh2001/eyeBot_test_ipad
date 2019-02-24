@@ -1,4 +1,4 @@
-import { Component, OnIni, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 export enum KEY_CODE {
   RIGHT_ARROW = 39,
@@ -14,13 +14,13 @@ export enum KEY_CODE {
 export class UsertestComponent implements OnInit {
 
   show: number = 1;
-  selectedMagnification: number = 1;
+  selectedMagnification: number = 1; //default mangificatin is 1;
   showSelectedResult: boolean = false;
 
   constructor() { }
 
 
-  @HostListener('window:keyup', ['$event'])
+  @HostListener('window:keyup', ['$event']) //use this to listen to the button press and pass the value to "event"
   keyEvent(event: KeyboardEvent){
     // console.log('show:', this.show);
     if(event.keyCode === KEY_CODE.RIGHT_ARROW){
@@ -69,7 +69,7 @@ export class UsertestComponent implements OnInit {
                 break;
             case 7:
               console.log('your need +2.50');
-              his.selectedMagnification = 2.50;
+              this.selectedMagnification = 2.50;
                 break;
             case 8:
               console.log('your need +2.75');

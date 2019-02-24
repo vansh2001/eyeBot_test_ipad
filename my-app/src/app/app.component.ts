@@ -1,4 +1,4 @@
-import { Component, ngOnInit, HostListener } from '@angular/core';
+import { Component, OnInit, HostListener } from '@angular/core';
 
 export enum KEY_CODE {
   RIGHT_ARROW = 39,
