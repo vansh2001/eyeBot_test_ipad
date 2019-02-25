@@ -3,7 +3,7 @@ import { Component, OnInit, HostListener } from '@angular/core';
 export enum KEY_CODE {
   RIGHT_ARROW = 39,
   LEFT_ARROW = 37,
-  SPACE_BAR = 40
+  SPACE_BAR = 32
 }
 
 @Component({
